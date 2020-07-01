@@ -10,7 +10,7 @@ Jenkins凭据解密脚本，增加对publish_over_ssh插件支持
 关于对credentials.xml文件的凭据解密，依然安利以上工具，/鞠躬。
 ```
 
-# Usge
+# Usage
 ```
 # 单凭据解密：
 python3 jenkins_credential.py <master.key> <hudson.util.Secret> <secretPassphrase>
